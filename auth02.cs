@@ -1,4 +1,4 @@
-public async (Task<AuthenticateResponse> RegisterAsynch(string email, string password, string x)
+public async (Task<AuthenticateResponse> RegisterAsynch(string email, string password, string ident) 
 {
 string sendEmail = email.ToSafeString();
 _logger.LogInformation($"Attempting registration for user {sendEmail}");
