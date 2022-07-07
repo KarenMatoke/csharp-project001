@@ -1,0 +1,16 @@
+
+Testing /Users/kmm/Documents/code/snyk/CodingLanguages/csharp ...
+
+ ✗ [Medium] Log Forging 
+     Path: codeql001.cs, line 14 
+     Info: (BETA Suggestion) Unsanitized input from an HTTP parameter flows into Warn, where it is used as log input. This may result in a Logs Forging vulnerability.
+
+
+✔ Test completed
+
+Organization:      karen.matoke.02
+Test type:         Static code analysis
+Project path:      /Users/kmm/Documents/code/snyk/CodingLanguages/csharp
+
+1 Code issues found
+ 1 [Medium] 
