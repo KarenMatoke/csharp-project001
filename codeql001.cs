@@ -14,6 +14,6 @@ public class LogForgingHandler : IHttpHandler
         logger.Warn(username + " log in requested.");
         // GOOD: User input logged with new-lines removed
         logger.Warn(username.Replace(Environment.NewLine, "") + " log in requested");
-        // adding a comment just for a change
+        // adding a comment just for a change again 
     }
 }
